@@ -49,7 +49,7 @@ main() {
         << " mm is " << calculatedVolume
         << " mm²." << std::endl;
     } catch (std::invalid_argument) {
-        std::cout << "That is not an float." << std::endl;
+        std::cout << "Invalid Input." << std::endl;
     }
     std::cout << "\nDone." << std::endl;
 }
